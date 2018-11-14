@@ -34,8 +34,3 @@ https://drive.google.com/drive/folders/1Pk2tdkPJbDKoal--aR898wPD_SlnSnKN?usp=sha
 
 
 
-
-### `npm start`
-
-
-

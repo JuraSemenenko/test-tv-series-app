@@ -16,8 +16,7 @@ const MainPageWrapper = props => {
       <main className="main-container">
         <img className="main-img" src={mainImg} alt="tv" />
         <p className="main-p">
-          Для получения списка сериалов, пожалуйста, выберите необходимый месяц
-          и день.
+          For a list of TV shows, please select the desired month and day.
         </p>
       </main>
       <Calendar />
