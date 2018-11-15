@@ -19,8 +19,7 @@ class Calendar extends Component {
     year: 2018,
     month: 1,
     day: 1,
-    monthName: "",
-    todayDate: ""
+    monthName: ""
   };
 
   componentDidMount() {
@@ -32,8 +31,7 @@ class Calendar extends Component {
       year: data.year,
       month: data.month,
       day: data.day,
-      monthName: getMonthName(data.month),
-      todayDate: `${data.year}-${data.month}-${data.day}`
+      monthName: getMonthName(data.month)
     });
   }
 
@@ -49,7 +47,7 @@ class Calendar extends Component {
     });
   };
   render() {
-    const { daysList, monthName, todayDate } = this.state;
+    const { daysList, monthName } = this.state;
 
     return (
       <div className="footer">
@@ -75,7 +73,6 @@ class Calendar extends Component {
             <CalendarDay
               key={index}
               day={item.day}
-              toDay={todayDate}
               date={item.dateTamplate || "0000"}
               isActive={item.isCurrent}
             />

@@ -26,9 +26,7 @@ class TvSeriesList extends Component {
     prevDateFormat: "",
     isPrevDayListShort: false,
     isOpenModal: false,
-    modalImg: "",
-    isLoadingToDay: false,
-    isLoadingPrevDay: false
+    modalImg: ""
   };
 
   componentDidMount() {
@@ -117,12 +115,12 @@ class TvSeriesList extends Component {
       prevDateFormat,
       isPrevDayListShort,
       isOpenModal,
-      modalImg,
-      isLoadingToDay,
-      isLoadingPrevDay
+      modalImg
     } = this.state;
+
     const prevDayCount = prevDaySeriesData.length - prevDayDataSliced.length;
     const toDayCount = todaySeriesData.length - todayDataSliced.length;
+
     return (
       <div className="container series-list-container">
         <header className="header-container">

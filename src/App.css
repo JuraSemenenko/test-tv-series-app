@@ -92,6 +92,11 @@ h1 {
   font-weight: 500;
   background-color: #ffffff;
   border: 1px solid #d0d4d9;
+  cursor: pointer;
+}
+.calendar-day-item:hover {
+  font-weight: 800;
+  border: 2px solid #e10246;
 }
 .calendar-day-item-active {
   font-weight: 800;
