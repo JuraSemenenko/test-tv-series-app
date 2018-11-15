@@ -9,7 +9,7 @@ body {
   height: 100%;
 }
 .container {
-  max-width: 450px;
+  max-width: 768px;
   display: flex;
   flex-direction: column;
   height: 100%;
